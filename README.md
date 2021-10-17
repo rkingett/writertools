@@ -1,1 +1,1 @@
-	This holds templates and Macros aimed to help writers. All templates work with Microsoft Word but can be freely adapted, as you so wish. Just link to my website when crediting me. Look in the Wiki for a tutorial and documentation.
+This holds templates and Macros aimed to help writers. All templates work with Microsoft Word but can be freely adapted, as you so wish. Just link to [my website](http://blindjournalist.wordpress.com/) when crediting me. Look in [the Wiki](https://github.com/rkingett/writertools/wiki) for a tutorial and documentation.

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --width: 720px;
+    --font-main: 'Open Sans', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --font-scale: 1.4em;
+    --background-color: #000000;
+    --heading-color: #aaa;
+    --text-color: #ffffff;
+    --link-color: #aaa;
+    --link-hover-color: #d1d1d1;
+    --visited-color: #aaa;
+    --code-background-color: #505050;
+    --code-color: #ffffff;
+    --blockquote-color: #ffffff;
+}
+
+body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    font-weight: 300;
+    margin: auto;
+    padding: 30px 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+    font-weight: 800;
+}
+
+a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: var(--link-hover-color);
+}
+
+header {
+    text-align: center;
+    background: #505050;
+    padding: 30px 25px;
+    border-bottom: 4px solid white;
+    margin-bottom: 40px;
+}
+
+nav p {
+    margin-bottom: 0px;
+}
+
+nav a {
+    font-size: .9em;
+    margin-right: 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav a:last-child {
+    margin-right: 0px;
+}
+
+strong,
+b {
+    color: var(--heading-color);
+}
+
+button {
+    margin: 0;
+    cursor: pointer;
+}
+
+main {
+    line-height: 1.6;
+}
+
+content a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+table {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dashed;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 0px;
+}
+
+blockquote {
+    border-left: 5px solid var(--blockquote-color);
+    background: var(--code-background-color);
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 20px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 2px solid white;
+    background: #505050;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.title:hover {
+    text-decoration: none;
+}
+
+.title h1 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.inline {
+    width: auto !important;
+}
+
+.highlight,
+.code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+}
+
+/* blog post list */
+/*
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
+*/
+
+ul.blog-posts li span time {
+   display: none; 
+}
+
+ul.blog-posts li a:visited {
+    color: var(--visited-color);
+}
+
+ul.blog-posts li a:visited:hover {
+    color: var(--link-hover-color);
+}
+
+time {
+    font-style: normal
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px dashed var(--heading-color);
+    padding: 10px;
+    font-size: .9em;
+}

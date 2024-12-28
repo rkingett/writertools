@@ -4,6 +4,7 @@
 
 ::int::.INT. HOUSE - DAY`r`r
 ::ext::.EXT. BRICK’S POOL - DAY`r`r
+::im::I'm
 ::wont::won't
 ::cant::can't
 ::isnt::isn't

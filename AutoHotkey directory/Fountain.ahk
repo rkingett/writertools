@@ -1,8 +1,8 @@
 ﻿:C:i::I
 
-#Hotstring SendPlay K90 c
+#Hotstring SendPlay K70 c
 
-::int::.INT. HOUSE - DAY`r`r
+::int::.INT. HOUSE - DAY`n
 ::ext::.EXT. BRICK’S POOL - DAY`r`r
 ::im::I'm
 ::wont::won't
